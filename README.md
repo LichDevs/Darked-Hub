@@ -1,2 +1,0 @@
-# Darked-Hub
-darkhub

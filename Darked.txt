@@ -1,0 +1,71 @@
+local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local window = kavoUi.CreateLib("Darked V2","DarkTheme")
+
+-- Notification
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Hey! Read this please",
+	Text = "Credits to Ghost, Hanki#0001 and lil rxythm"
+})
+
+local Tab1 = window:NewTab("Main")
+local Tab1Section = Tab1:NewSection("Main Scripts Here!!!!!!1!1!1!!1!1")
+local Tab2 = window:NewTab("Other")
+local Tab2Section = Tab2:NewSection("Other Scripts 1!1!1!")
+local Tab3 = window:NewTab("Guis")
+local Tab3Section = Tab4:NewSection("Guis!!!!!!!")
+local Tab4 = window:NewTab("Credits")
+local Tab4Section = Tab4:NewSection("Credits!!!")
+local Tab5 = window:NewTab("Updates")
+local Tab5Section = Tab5:NewSection("Updates From gui")
+local Tab6 = window:NewTab("Extra")
+local Tab6Section = Tab6:NewSection("Extra Scripts")
+
+Tab1Section:NewButton("Adopt Me! (Key system)","No description",function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/BloxiYT/Diamond/main/AdoptMe"))()
+end)
+
+Tab1Section:NewButton("Brookhaven","No description",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+end)
+
+Tab1Section:NewButton("[Blox Fruits","No description",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+end)
+
+Tab1Section:NewButton("Combat Warriors","No description",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SussyImposterRed/Scripts/main/NEW_NOVA"))()
+end)
+Tab2Section:NewButton("Flag Wars","no",function()
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\84\97\107\101\77\111\100\122\122\47\70\108\97\103\45\87\97\114\115\45\68\101\115\116\114\111\121\101\114\47\109\97\105\110\47\77\97\100\101\37\50\48\66\121\37\50\48\84\97\107\101\37\50\48\77\111\100\122\122\34\41\40\41\10")()
+end) 
+Tab2Section:NewButton("Animations","No description",function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/gJC4kvgy'),true))()
+end)          
+Tab2Section:NewButton("infinite yield","No description",function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/MjBzRjmT'),true))()
+end)
+Tab3Section:NewButton("Games Hub V5(Fixed)","No description",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TakeModzz/Games-Hub-V5-Selector-Fixed/main/Games"))()
+end)
+Tab3Section:NewButton("VHub","ButtonText",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Veincx5315/Created/VHub/Simple'),true))()
+end)
+Tab3Section:NewButton("Keyboard GUI","No description",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+Tab4Section:NewLabel("Thanks to Hanki1!1!1!1!1")
+Tab4Section:NewLabel("More Scripts and Things Coming Soon")
+Tab4Section:NewLabel("Credits To Ghost")
+Tab4Section:NewLabel("UI Made By Ghost Too")
+
+Tab5Section:NewLabel("---Added More Games")
+Tab5Section:NewLabel("---Updates Some Tabs")
+Tab5Section:NewLabel("---Added More Stuff")
+
+Tab6Section:NewButton("HarsTech","credits to yellowgreg",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/Loadstring/main/HarshTech7.5(in%20Development).txt"))()
+end)
+Tab6Section:NewButton("Bee Swarm","idk",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/kocmoc/main/kocmoc-remastered.lua", true))()
+end)
